@@ -12,11 +12,11 @@ gem 'jbuilder', '~> 1.2'
 gem  'bootstrap-sass', '~> 3.0.3.0'
 
 group :development,:test do
-	gem 'sqlite3'
+	gem 'pg'
 end
 
 group :production do
-	gem 'ps'
+	gem 'pg'
 	gem 'rails_12factor'
 end
 
