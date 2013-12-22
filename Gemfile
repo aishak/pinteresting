@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 1.2'
 gem  'bootstrap-sass', '~> 3.0.3.0'
 
 group :development,:test do
-	gem 'pg'
+	gem 'sqlite3'
 end
 
 group :production do
